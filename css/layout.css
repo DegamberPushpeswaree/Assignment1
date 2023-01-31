@@ -59,3 +59,8 @@ ul,li {
     font-size: 1.4rem;
     margin-left: 2rem;
 }
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--colour-primary-light);
+}
