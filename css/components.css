@@ -66,6 +66,7 @@
 
 
 .copyright{
+  font-size: 16px;
     text-align: center;
     color: var(--colour-grey-light-1);
     padding: 2rem;
@@ -96,6 +97,15 @@
   padding: 1rem;
   width:70%;
   text-align: justify;
+}
+.container__content__aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  width:30%;
+  text-align: justify;
+  background-color: pink;
 }
 
 
