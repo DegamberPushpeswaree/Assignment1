@@ -30,11 +30,14 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
 .hotel-info{
 
     flex:1;
     height: 50rem;
+}
+
+.conference-info{
+    width :100%;
 }
 .footer{
     background-color: rgb(14, 110, 122);
