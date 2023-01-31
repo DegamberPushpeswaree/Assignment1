@@ -70,7 +70,7 @@
     color: var(--colour-grey-light-1);
     padding: 2rem;
 }
-
+/* ----------------------------------------------------------- */
 /* conference info */
 .container__image{
   padding: 1rem;
@@ -89,30 +89,15 @@
     width: 100%;
   }
 }
-
-
-
-/****************************************/
-/************    SUMMARY    *************/
-
-.summary {
+.container__content{
   display: flex;
-  border-bottom: 1px solid var(--colour-grey-light-2);
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  width:70%;
+  text-align: justify;
 }
 
-.summary__heading {
-  text-transform: uppercase;
-  color: var(black);
-  padding: 1.5rem 3rem
-}
-
-.summary__heading1 {
-  position: relative;
-  text-transform: uppercase;
-  color: var(black);
-  padding: 3rem 6rem
-}
 
 
 /****************************************/
