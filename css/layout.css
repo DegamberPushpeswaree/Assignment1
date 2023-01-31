@@ -1,11 +1,12 @@
-.container{
-    width: 120rem;
+.body__container{
+    width: 90%;
     background-color: var(--colour-grey-light-1);
     margin: 4rem auto;
-    height: 50rem;
+    height: auto;
 }
+
 .header{
-    height: 7rem;
+    height: 15vh;
     background-color: #fff;
     border-bottom: 1px solid var(--colour-grey-light-2);
 
