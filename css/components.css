@@ -119,7 +119,117 @@
 
 
 /****************************************/
-/************    DETAILS   **************/
+/************    signin   **************/
+* Signin */
+.sign____container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 40rem;
+    height: 45rem;
+    background-color: rgb(167,169,172);
+    border: .2rem solid var(--colour-primary);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1.5rem);
+    left: 35%;
+    top: 10rem;
+}
+
+form > h2 {
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.input__box {
+    position: relative;
+    width: 30rem;
+    margin: 3rem 0;
+    border-bottom: .2rem solid whitesmoke;
+}
+
+.input__box > label {
+    position: absolute;
+    top: 50%;
+    left: .5em;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    color: whitesmoke;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input__box > input:focus~label,
+.input__box > input:valid~label {
+    top: -.5rem;
+}
+
+.input__box > input {
+    width: 100%;
+    height: 5rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size:  1.6rem;
+    color: whitesmoke;
+    padding: 0 3.5rem 0 .5rem;
+}
+
+.input__box > .icon {
+    position: absolute;
+    right: .8rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    line-height: 5.7rem;
+}
+
+.login__register__link {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    text-align: center;
+    margin:  2.5rem 0 1rem;
+}
+
+.login__register__link > p > a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.login__register__link > p > a:hover {
+    text-decoration: underline;
+    color: var(--color-blue-light-1);
+}
+.login__register__link > p:last-child > a {
+    color: var(--color-blue-light-3);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.login__register__link > p:last-child > a:hover {
+    text-decoration: none;
+    color: var(--color-blue-light-3)
+}
+.login__box_signup{
+    height: 58rem;
+}
+@media screen and (max-width : 55rem) {
+  .box{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+}
 
 
 
