@@ -1,0 +1,101 @@
+/****************************************/
+/*    LOGO    */
+
+.logo {
+    height: 3rem;
+    margin-left: 3rem;
+ }
+
+.logo1 {
+    height: 3rem;
+    margin-left: 3rem;
+}
+
+.container .h1{
+  position: center;
+}
+
+/****************************************/
+/*******    SIDE NAVIGATION    **********/
+
+.side-nav{
+  list-style: none;
+  font-size: 1.4rem;
+  margin-top: 3.5rem;
+}
+
+.side-nav__item{
+  position: relative;
+  
+}
+.side-nav__item:not(:last-child){
+  margin-bottom: 0.5rem;
+}
+
+.side-nav__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  background-color: var(--colour-primary);
+  height: 100%;
+  transform: scaleY(0);
+  transition: transform 0.2s, width 0.5s 0.2s;
+}
+
+.side-nav__item:hover::before{
+  transform: scaleY(1);
+  width: 100%;
+}
+
+.side-nav__link{
+  color: var(--colour-grey-light-1);
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  display: block;
+  z-index:100;
+  position: relative;
+}
+
+
+.copyright{
+    text-align: center;
+    color: var(--colour-grey-light-1);
+    padding: 2rem;
+}
+
+
+
+/****************************************/
+/************    SUMMARY    *************/
+
+.summary {
+  display: flex;
+  border-bottom: 1px solid var(--colour-grey-light-2);
+  align-items: center;
+}
+
+.summary__heading {
+  text-transform: uppercase;
+  color: var(black);
+  padding: 1.5rem 3rem
+}
+
+.summary__heading1 {
+  position: relative;
+  text-transform: uppercase;
+  color: var(black);
+  padding: 3rem 6rem
+}
+
+
+/****************************************/
+/************    DETAILS   **************/
+
+
+
+/****************************************/
+/************    BOOK NOW    ************/
+
+
