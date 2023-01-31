@@ -224,8 +224,17 @@ form > h2 {
     text-decoration: none;
     color: var(--color-blue-light-3)
 }
-.login__box_signup{
-    height: 58rem;
+.box_signup{
+    height: 50rem;
+}
+button > a {
+  text-decoration: none;
+  color: white;
+}
+button:hover {
+  text-decoration: none;
+  background-color: var(--colour-primary-dark);
+  transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width : 55rem) {
   .box{
